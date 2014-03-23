@@ -2,4 +2,4 @@
 
 echo "--- Link vagrant to document root ---"
 sudo rm -rf /var/www
-sudo ln -fs /vagrant /var/www
+sudo ln -fs /vagrant/project /var/www

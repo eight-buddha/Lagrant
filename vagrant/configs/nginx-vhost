@@ -4,7 +4,7 @@ server {
 
         server_name _;
 
-        root /var/www/public;
+        root /var/www/project/public;
 
         index index.php index.html;
 

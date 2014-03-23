@@ -75,14 +75,14 @@ fi
 # We assume that if there is no composer.json it is raw new project
 # Otherwise project already exists and we need to migrate it
 
-if [ ! -a "/vagrant/composer.json" ];
-then
-    ${SCRIPTS}/laravel_create.sh $PROJECT_PATH $ENV_NAME
-    if [ -n "$DATABASE_NAME" ];
-    then
-        ${SCRIPTS}/laravel_set_db.sh $PROJECT_PATH $ENV_NAME $DATABASE_TYPE $DATABASE_NAME $DATABASE_ROOT_PASSWORD
-    fi
-    ${SCRIPTS}/laravel_setup.sh $PROJECT_PATH $ENV_NAME
-else
-    ${SCRIPTS}/laravel_migrate.sh $PROJECT_PATH $ENV_NAME
-fi
+#if [ ! -a "/vagrant/composer.json" ];
+#then
+#    ${SCRIPTS}/laravel_create.sh $PROJECT_PATH $ENV_NAME
+#    if [ -n "$DATABASE_NAME" ];
+#    then
+#        ${SCRIPTS}/laravel_set_db.sh $PROJECT_PATH $ENV_NAME $DATABASE_TYPE $DATABASE_NAME $DATABASE_ROOT_PASSWORD
+#    fi
+#    ${SCRIPTS}/laravel_setup.sh $PROJECT_PATH $ENV_NAME
+#else
+#    ${SCRIPTS}/laravel_migrate.sh $PROJECT_PATH $ENV_NAME
+#fi
