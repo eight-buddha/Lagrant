@@ -1,6 +1,6 @@
 #Lagrant
 
-Boilerplate Laravel Vagrant config with autosetup.
+Boilerplate ~~Laravel~~ Vagrant config with autosetup.
 
 **Makes an isolated local development featured environment and installs Laravel with dev-packages OR runs exisisting one.**
 ```
