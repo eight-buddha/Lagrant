@@ -51,7 +51,7 @@ ${SCRIPTS}/${DATABASE_TYPE}.sh $DATABASE_ROOT_PASSWORD
 
 #${SCRIPTS}/dart.sh
 
-${SCRIPTS}/imagick.sh
+#${SCRIPTS}/imagick.sh
 
 # FFMpeg needs to be compiled, it takes a lot of time
 # So uncomment ffmpeg installer if you really need it
@@ -59,11 +59,11 @@ ${SCRIPTS}/imagick.sh
 
 ${SCRIPTS}/xdebug.sh
 
-${SCRIPTS}/phpunit.sh
+#${SCRIPTS}/phpunit.sh
 
 ${SCRIPTS}/composer.sh
 
-${SCRIPTS}/beanstalkd.sh
+#${SCRIPTS}/beanstalkd.sh
 
 ${SCRIPTS}/supervisor.sh
 
