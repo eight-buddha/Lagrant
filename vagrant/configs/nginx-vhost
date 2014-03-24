@@ -16,6 +16,26 @@ server {
                 try_files $uri $uri/ /index.php?q=$uri&$args;
         }
 
+        location /backend {
+                try_files $uri $uri/ /backend.php?$query_string;
+        }
+
+        location ~ /\.ht {
+                deny all;
+        }
+
+        location = /robots.txt {
+                allow all;
+                log_not_found off;
+                access_log off;
+        }
+
+        location = /favicon.ico {
+                allow all;
+                log_not_found off;
+                access_log off;
+        }
+
         error_page 404 /index.php;
 
         location ~ \.php$ {

@@ -1,3 +1,3 @@
 <?php
 // raa
-phpinfo();
+phpinfo(32);
