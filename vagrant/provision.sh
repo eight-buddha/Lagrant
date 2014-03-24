@@ -25,31 +25,31 @@ ${SCRIPTS}/ruby.sh
 
 ${SCRIPTS}/${DATABASE_TYPE}.sh $DATABASE_ROOT_PASSWORD
 
-${SCRIPTS}/sqlite.sh
+#${SCRIPTS}/sqlite.sh
 
-${SCRIPTS}/redis.sh
+#${SCRIPTS}/redis.sh
 
-${SCRIPTS}/mongodb.sh
+#${SCRIPTS}/mongodb.sh
 
-${SCRIPTS}/nodejs.sh
+#${SCRIPTS}/nodejs.sh
 
-${SCRIPTS}/bower.sh
+#${SCRIPTS}/bower.sh
 
-${SCRIPTS}/grunt.sh
-${SCRIPTS}/grunt-autoprefixer.sh
+#${SCRIPTS}/grunt.sh
+#${SCRIPTS}/grunt-autoprefixer.sh
 
-${SCRIPTS}/gulp.sh
-${SCRIPTS}/gulp-autoprefixer.sh
+#${SCRIPTS}/gulp.sh
+#${SCRIPTS}/gulp-autoprefixer.sh
 
-${SCRIPTS}/phantomjs.sh
+#${SCRIPTS}/phantomjs.sh
 
-${SCRIPTS}/less.sh
+#${SCRIPTS}/less.sh
 
-${SCRIPTS}/sass.sh
+#${SCRIPTS}/sass.sh
 
-${SCRIPTS}/coffeescript.sh
+#${SCRIPTS}/coffeescript.sh
 
-${SCRIPTS}/dart.sh
+#${SCRIPTS}/dart.sh
 
 ${SCRIPTS}/imagick.sh
 
