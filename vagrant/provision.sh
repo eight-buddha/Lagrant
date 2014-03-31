@@ -65,6 +65,8 @@ ${SCRIPTS}/composer.sh
 
 #${SCRIPTS}/beanstalkd.sh
 
+${SCRIPTS}/mc.sh
+
 ${SCRIPTS}/supervisor.sh
 
 if [ -n "$DATABASE_NAME" ];
