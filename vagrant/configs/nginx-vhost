@@ -6,6 +6,9 @@ server {
 
         root /var/www/public;
 
+		# set client body size to 2M #
+		client_max_body_size 2M;
+
         index index.php index.html;
 
         if (!-d $request_filename) {
